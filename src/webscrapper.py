@@ -48,3 +48,6 @@ class WebScrapper():
                 if brand in model:
                     cars_dict[brand].append(model.replace(brand + ' ', ''))
         return cars_dict
+
+    def get_announces(self, brand=None, ):
+        pass
